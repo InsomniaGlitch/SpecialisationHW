@@ -5,25 +5,33 @@
 хомяки) и Вьючные животные (лошади, верблюды и
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
-```cat domestic.txt
+```
+cat domestic.txt
 cat pack.txt
 cat domestic.txt pack.txt > human_friends.txt
-cat human_friends.txt```
+cat human_friends.txt
+```
 
 2. Создать директорию, переместить файл туда.
-```mkdir animal_nursery
-mv human_friends.txt /home/insomnia/animal_nursery```
+```
+mkdir animal_nursery
+mv human_friends.txt /home/insomnia/animal_nursery
+```
 
 3. Подключить дополнительный репозиторий MySQL, установить любой пакет
 из этого репозитория.
-```wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+```
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
 apt install ./mysql-apt-config_0.8.26-1_all.deb
 apt-get update
-apt install -f mysql-client mysql-community-server mysql-server```
+apt install -f mysql-client mysql-community-server mysql-server
+```
 
 4. Установить и удалить deb-пакет с помощью dpkg.
-```dpkg -i mysql-apt-config_0.8.26-1_all.deb
-dpkg -r mysql```
+```
+dpkg -i mysql-apt-config_0.8.26-1_all.deb
+dpkg -r mysql
+```
 
 5. Выложить историю команд в терминале ubuntu.
 > Выше
@@ -39,7 +47,8 @@ dpkg -r mysql```
 `CREATE DATABASE human_friends;`
 
 8. Создать в БД таблицы с иерархией из диаграммы.
-```USE human_friends;
+```
+USE human_friends;
 CREATE TABLE animals
 (
     id INT PRIMARY KEY, 
@@ -183,12 +192,14 @@ FROM horses UNION
 SELECT name, 
        command, 
        birthday
-FROM donkeys;```
+FROM donkeys;
+```
 
 11. Создать новую таблицу “молодые животные”, в которую попадут все
 животные старше 1 года, но младше 3 лет и в отдельном столбце с точностью
 до месяца подсчитать возраст животных в новой таблице.
-```CREATE TABLE young_animals AS
+```
+CREATE TABLE young_animals AS
 SELECT *, CONCAT(TIMESTAMPDIFF(YEAR, birthday, NOW()), " г ", TIMESTAMPDIFF(MONTH, birthday, NOW()) - (12 * TIMESTAMPDIFF(YEAR, birthday, NOW())), " м") AS age FROM dogs
 UNION
 SELECT *, CONCAT(TIMESTAMPDIFF(YEAR, birthday, NOW()), " г ", TIMESTAMPDIFF(MONTH, birthday, NOW()) - (12 * TIMESTAMPDIFF(YEAR, birthday, NOW())), " м") AS age FROM cats
@@ -200,11 +211,13 @@ UNION
 SELECT *, CONCAT(TIMESTAMPDIFF(YEAR, birthday, NOW()), " г ", TIMESTAMPDIFF(MONTH, birthday, NOW()) - (12 * TIMESTAMPDIFF(YEAR, birthday, NOW())), " м") AS age FROM camels
 UNION
 SELECT *, CONCAT(TIMESTAMPDIFF(YEAR, birthday, NOW()), " г ", TIMESTAMPDIFF(MONTH, birthday, NOW()) - (12 * TIMESTAMPDIFF(YEAR, birthday, NOW())), " м") AS age FROM donkeys
-WHERE TIMESTAMPDIFF(MONTH, birthday, NOW()) BETWEEN 12 AND 36;```
+WHERE TIMESTAMPDIFF(MONTH, birthday, NOW()) BETWEEN 12 AND 36;
+```
 
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
-```CREATE TABLE all_animals AS
+```
+CREATE TABLE all_animals AS
 SELECT name, birthday, commands, specie_id, 'Dogs' AS oldTable FROM dogs
 UNION
 SELECT name, birthday, commands, specie_id, 'Cats' AS oldTable FROM cats
@@ -215,7 +228,8 @@ SELECT name, birthday, commands, specie_id, 'Horses' AS oldTable FROM horses
 UNION
 SELECT name, birthday, commands, specie_id, 'Camels' AS oldTable FROM camels
 UNION
-SELECT name, birthday, commands, specie_id, 'Donkeys' AS oldTable FROM donkeys;```
+SELECT name, birthday, commands, specie_id, 'Donkeys' AS oldTable FROM donkeys;
+```
 
 13. Создать [класс с инкапсуляцией методов и наследованием по диаграмме](pets).
 
