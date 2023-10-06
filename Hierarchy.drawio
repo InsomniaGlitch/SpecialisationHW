@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T14:23:12.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="RqDGrXG9S1f4MiSIGNMz" version="22.0.3" type="device">
+  <diagram name="Страница — 1" id="Uff7uXUbZccSYMXnYcIP">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-16" value="Extends" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.346;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-10" target="BB6puyQBe-Ysvo2dnGqS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="480" as="sourcePoint" />
+            <mxPoint x="186" y="378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-17" value="Extends" style="endArrow=classic;html=1;rounded=0;exitX=0.44;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;entryX=0.667;entryY=0.792;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-9" target="BB6puyQBe-Ysvo2dnGqS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="490" as="sourcePoint" />
+            <mxPoint x="196" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-13" value="Extends" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.61;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-7" target="BB6puyQBe-Ysvo2dnGqS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="450" as="sourcePoint" />
+            <mxPoint x="156" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-12" value="Extends" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.267;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-6" target="BB6puyQBe-Ysvo2dnGqS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-15" value="Extends" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.064;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-11" target="BB6puyQBe-Ysvo2dnGqS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="470" as="sourcePoint" />
+            <mxPoint x="176" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-2" value="Domestic&lt;br&gt;animal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;fontSize=20;fontFamily=Comic Sans MS;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="146" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-3" value="Extends" style="endArrow=classic;html=1;rounded=0;exitX=0.506;exitY=0.093;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;fontFamily=Comic Sans MS;strokeWidth=2;entryX=0.04;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-2" target="BB6puyQBe-Ysvo2dnGqS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="310" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-1" value="Animal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;fontSize=30;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="326" y="60" width="176" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-4" value="Pack animal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;fontSize=20;fontFamily=Comic Sans MS;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="156" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-5" value="Extends" style="endArrow=classic;html=1;rounded=0;entryX=0.898;entryY=0.471;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.079;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-4" target="BB6puyQBe-Ysvo2dnGqS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="708" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-6" value="Hamster" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-7" value="Dog" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-8" value="Cat" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-9" value="Camel" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="720" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-10" value="Donkey" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-11" value="Horse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BB6puyQBe-Ysvo2dnGqS-14" value="Extends" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.911;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;" edge="1" parent="1" source="BB6puyQBe-Ysvo2dnGqS-8" target="BB6puyQBe-Ysvo2dnGqS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="562" as="sourcePoint" />
+            <mxPoint x="406" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
